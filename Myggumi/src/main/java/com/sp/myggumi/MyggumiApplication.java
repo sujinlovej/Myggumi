@@ -1,4 +1,4 @@
-package com.study.myggumi;
+package com.sp.myggumi;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

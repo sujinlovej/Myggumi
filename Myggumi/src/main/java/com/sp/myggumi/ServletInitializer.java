@@ -1,4 +1,4 @@
-package com.study.myggumi;
+package com.sp.myggumi;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.support.SpringBootServletInitializer;
