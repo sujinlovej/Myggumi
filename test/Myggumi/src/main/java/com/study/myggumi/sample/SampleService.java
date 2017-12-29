@@ -21,5 +21,5 @@ public class SampleService {
   public List<Map<String, String>> getDBVersion() {
     return sampleRepository.getDBVersion();
   }
-
+  
 }

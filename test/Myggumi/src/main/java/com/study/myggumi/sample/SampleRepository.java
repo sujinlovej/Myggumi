@@ -5,4 +5,5 @@ import java.util.Map;
 
 public interface SampleRepository {
   List<Map<String, String>> getDBVersion();
+  
 }

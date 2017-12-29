@@ -52,4 +52,8 @@ dependencies {
 	// Development Tool
 	runtime 'org.springframework.boot:spring-boot-devtools'
 	compile 'org.springframework.boot:spring-boot-starter-actuator'
+	
+	// Aop
+	compile 'org.springframework:spring-aop'
+	compile 'org.springframework:spring-aspects'
 }
