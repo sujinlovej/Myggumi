@@ -1,5 +1,8 @@
 package com.study.myggumi;
 
+import java.sql.SQLException;
+
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
@@ -13,9 +16,12 @@ public class MyggumiApplication {
 	}
 	
 	@Bean
-	public UserServiceImpl UserService() {
+	public UserServiceImpl UserServiceImpl()  throws SQLException {
 
 		UserServiceImpl service = new UserServiceImpl(null);
+		
+		service.getUserList();
+		System.out.println("getUserList======");
 		
 		return service;
 	}

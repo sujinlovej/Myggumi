@@ -8,6 +8,9 @@
             <ul>
             	<li><a href="/sample">Sample Page</a></li>
             </ul>
+            <ul>
+            	<li><a href="/sample1">Sample Page1</a></li>
+            </ul>
         </div>
     </div>
 </body>

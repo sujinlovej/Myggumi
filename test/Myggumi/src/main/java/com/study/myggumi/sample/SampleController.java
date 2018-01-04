@@ -21,7 +21,7 @@ public class SampleController {
     this.sampleService = sampleService;
   }
 
- @GetMapping("/")
+ @GetMapping("/1")
   public String home() {
     return "index";
   }
@@ -35,12 +35,12 @@ public class SampleController {
     return "sample";
   }
   
-  @RequestMapping("main")
+  /*@RequestMapping("main")
   public ModelAndView mainpage() {
 	  ModelAndView modelAndView = new ModelAndView();
 	  modelAndView.setViewName("sample1");
 	  
 	  return modelAndView;
-  }
+  }*/
   
 }
